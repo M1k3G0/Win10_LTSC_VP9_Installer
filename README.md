@@ -1,28 +1,5 @@
 Windows 10 LTSC 1809+ x64 FAQ (ENG):
 
-0) Проверяем что VP9 в браузере не работает - youtu.be/N1-Jmq7BLFE
-Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет <10%.
-
-1) Выключите все браузеры и запустите скрипт step1.ps1 от Администратора.
-
-2) Скопируйте приложенные файлы (5 штук) в директорию "C:\Program Files\WindowsApps\"
-
-Список файлов: 
-- VP9 Video Extensions microsoft.com/store/productId/9N4D0MSMP0PT
-- Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
-- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
-
-3) Запустите скрипт step3.ps1 от Администратора.
-
-4) Проверьте что все 3 функции установлены с помощью OOAPB.exe (ищите это в поисковике)
-
-5) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
-Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
-
-
-
-Windows 10 LTSC 1809+ x64 FAQ (RUS):
-
 0) Сheck that VP9 does not work in the browser - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
@@ -41,3 +18,26 @@ List of files:
 
 5) Start brouser and check that VP9 works - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
+
+
+
+Windows 10 LTSC 1809+ x64 FAQ (RUS):
+
+0) Проверяем что VP9 в браузере не работает - youtu.be/N1-Jmq7BLFE
+Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет <10%.
+
+1) Выключите все браузеры и запустите скрипт step1.ps1 от Администратора.
+
+2) Скопируйте приложенные файлы (5 штук) в директорию "C:\Program Files\WindowsApps\"
+
+Список файлов: 
+- VP9 Video Extensions microsoft.com/store/productId/9N4D0MSMP0PT
+- Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
+- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
+
+3) Запустите скрипт step3.ps1 от Администратора.
+
+4) Проверьте что все 3 функции установлены с помощью OOAPB.exe (ищите это в поисковике)
+
+5) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
+Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
