@@ -1,4 +1,4 @@
-Windows 10 LTSC 1809+ x64 FAQ (ENG):
+Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (ENG):
 
 0) Сheck that VP9 does not work in the browser - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
@@ -21,7 +21,7 @@ We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%
 
 
 
-Windows 10 LTSC 1809+ x64 FAQ (RUS):
+Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (RUS):
 
 0) Проверяем что VP9 в браузере не работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет <10%.
