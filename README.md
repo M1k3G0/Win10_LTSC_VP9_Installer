@@ -19,6 +19,8 @@ List of files:
 5) Start brouser and check that VP9 works - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
 
+6) Say thanks, PayPal: mirageat@gmail.com
+
 
 
 Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (RUS):
@@ -41,3 +43,5 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 5) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
+
+6) Выразите благодарность, PayPal: mirageat@gmail.com
