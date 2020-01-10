@@ -3,7 +3,7 @@ Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (ENG):
 0) Сheck that VP9 does not work in the browser - youtu.be/N1-Jmq7BLFE
 Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
-1) Stop all brousers and run script step1.ps1 as Administrator. Or run commands in powershell.exe line by line. Сheck that the applications in folder C:\Program Files\WindowsApps are not running.
+1) Stop all brousers and run script step1.ps1 as Administrator. Or run commands in powershell.exe line by line. Сheck that the applications from folder C:\Program Files\WindowsApps are not running.
 
 2) Copy the attached files (5 pieces) to the directory "C:\Program Files\WindowsApps\"
 
@@ -28,7 +28,7 @@ Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (RUS):
 0) Проверяем что VP9 в браузере не работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет <10%.
 
-1) Выключите все браузеры и запустите скрипт step1.ps1 от Администратора. Либо запускайте в powershell.exe команды построчно. Проверьте, что приложения их папки C:\Program Files\WindowsApps не запущены.
+1) Выключите все браузеры и запустите скрипт step1.ps1 от Администратора. Либо запускайте в powershell.exe команды построчно. Проверьте, что приложения из папки C:\Program Files\WindowsApps не запущены.
 
 2) Скопируйте приложенные файлы (5 штук) в директорию "C:\Program Files\WindowsApps\"
 
