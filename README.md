@@ -3,7 +3,8 @@ Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (ENG):
 0) Сheck that VP9 does not work in the browser - youtu.be/N1-Jmq7BLFE
 Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
-1) Install or upgrade all (x86 and x64) MS VC++ redistributable packages up to latest version: support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads Reboot PC.
+1) Install or upgrade all (x86 and x64) MS VC++ redistributable packages up to latest version: support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+Reboot PC.
 
 2) Stop all brousers and run script step1.ps1 as Administrator (or run commands in powershell.exe line by line).
 
@@ -30,7 +31,8 @@ Windows 10 LTSC 1809+ x64 VP9 Installer FAQ (RUS):
 0) Проверяем что VP9 в браузере не работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет <10%.
 
-1) Установите или обновите все (x86 и x64) MS VC++ библиотеки до последней версии: support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads Перезагрузите ПК.
+1) Установите или обновите все (x86 и x64) MS VC++ библиотеки до последней версии: support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads
+Перезагрузите ПК.
 
 2) Выключите все браузеры и запустите скрипт step1.ps1 от Администратора (либо запускайте в powershell.exe команды построчно).
 
