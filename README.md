@@ -14,7 +14,7 @@ List of files:
 - Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
 - HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
 
-4) Run script step3.ps1 as Administrator (or run commands in powershell.exe line by line).
+4) Run script step3_x64.ps1 (or step3_x86.ps1 if you using x86) as Administrator (or run commands in powershell.exe line by line). 2020/06/01 - added version x86, not tested...
 
 5) Check that all 3 functions are installed using OOAPB.exe ( oo-software.com/en/ooappbuster )
 
@@ -41,7 +41,7 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 - Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
 - HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
 
-4) Запустите скрипт step3.ps1 от Администратора (либо запускайте в powershell.exe команды построчно).
+4) Запустите скрипт step3_x64.ps1 (или step3_x86.ps1 если вы используете x86) от Администратора (либо запускайте в powershell.exe команды построчно). 2020/06/01 - добавил версию x86, не тестировал...
 
 5) Проверьте что все 3 функции установлены с помощью OOAPB.exe ( oo-software.com/en/ooappbuster )
 
