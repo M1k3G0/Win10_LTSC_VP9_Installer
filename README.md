@@ -25,9 +25,11 @@ List of files:
 6) Start brouser and check that VP9 works - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
 
-7) If you have any problems during installation, goto point 1 again or try using older versions of files:
+7) If you have any problems during installation, goto point 1 again or try using older versions of files: 
 Microsoft.VCLibs.140.00_14.0.27323.0_x86, Microsoft.VCLibs.140.00_14.0.27323.0_x64 
+
 and x64: Microsoft.HEIFImageExtension_1.0.20982.0_x64, Microsoft.VP9VideoExtensions_1.0.21371.0_x64 
+
 or x86: Microsoft.HEIFImageExtension_1.0.20982.0_x86, Microsoft.VP9VideoExtensions_1.0.21371.0_x86 
 
 8) Say thanks, PayPal: mirageat@gmail.com
@@ -61,9 +63,11 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 6) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
 
-7) Если у вас появились проблемы при установке, снова начните с пункта 1 или попробуйте использовать старые версии файлов:
+7) Если у вас появились проблемы при установке, снова начните с пункта 1 или попробуйте использовать старые версии файлов: 
 Microsoft.VCLibs.140.00_14.0.27323.0_x86, Microsoft.VCLibs.140.00_14.0.27323.0_x64 
+
 и x64: Microsoft.HEIFImageExtension_1.0.20982.0_x64, Microsoft.VP9VideoExtensions_1.0.21371.0_x64 
+
 или x86: Microsoft.HEIFImageExtension_1.0.20982.0_x86, Microsoft.VP9VideoExtensions_1.0.21371.0_x86 
 
 8) Выразите благодарность, PayPal: mirageat@gmail.com
