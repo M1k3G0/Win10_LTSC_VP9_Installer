@@ -26,11 +26,14 @@ List of files:
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
 
 7) If you have any problems during installation, goto point 1 again or try using older versions of files:
+
 Microsoft.VCLibs.140.00_14.0.27323.0_x86__8wekyb3d8bbwe.Appx
 Microsoft.VCLibs.140.00_14.0.27323.0_x64__8wekyb3d8bbwe.Appx
+
 and x64:
 Microsoft.HEIFImageExtension_1.0.20982.0_x64__8wekyb3d8bbwe.Appx
 Microsoft.VP9VideoExtensions_1.0.21371.0_x64__8wekyb3d8bbwe.Appx
+
 or x86:
 Microsoft.HEIFImageExtension_1.0.20982.0_x86__8wekyb3d8bbwe.Appx
 Microsoft.VP9VideoExtensions_1.0.21371.0_x86__8wekyb3d8bbwe.Appx
@@ -67,11 +70,14 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
 
 7) Если у вас появились проблемы при установке, снова начните с пункта 1 или попробуйте использовать старые версии файлов:
+
 Microsoft.VCLibs.140.00_14.0.27323.0_x86__8wekyb3d8bbwe.Appx
 Microsoft.VCLibs.140.00_14.0.27323.0_x64__8wekyb3d8bbwe.Appx
+
 and x64:
 Microsoft.HEIFImageExtension_1.0.20982.0_x64__8wekyb3d8bbwe.Appx
 Microsoft.VP9VideoExtensions_1.0.21371.0_x64__8wekyb3d8bbwe.Appx
+
 or x86:
 Microsoft.HEIFImageExtension_1.0.20982.0_x86__8wekyb3d8bbwe.Appx
 Microsoft.VP9VideoExtensions_1.0.21371.0_x86__8wekyb3d8bbwe.Appx
