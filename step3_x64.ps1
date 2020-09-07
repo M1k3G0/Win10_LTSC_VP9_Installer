@@ -9,10 +9,6 @@ Add-AppxPackage .\Microsoft.VCLibs.140.00_14.0.27810.0_x64__8wekyb3d8bbwe.Appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.VCLibs.140.00_14.0.27810.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 Add-AppxPackage .\Microsoft.MPEG2VideoExtension_1.0.4.0_x64__8wekyb3d8bbwe.Appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.MPEG2VideoExtension_1.0.4.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
-Add-AppxPackage .\Microsoft.WebpImageExtension_1.0.31251.0_x64__8wekyb3d8bbwe.appx
-Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebpImageExtension_1.0.31251.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
-Add-AppxPackage .\Microsoft.HEIFImageExtension_1.0.31572.0_x64__8wekyb3d8bbwe.Appx
-Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.HEIFImageExtension_1.0.31572.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 Add-AppxPackage .\Microsoft.AV1VideoExtension_1.1.32181.0_x64__8wekyb3d8bbwe.Appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.AV1VideoExtension_1.1.32181.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 Add-AppxPackage .\Microsoft.VP9VideoExtensions_1.0.31471.0_x64__8wekyb3d8bbwe.Appx
