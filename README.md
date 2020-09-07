@@ -13,19 +13,19 @@ List of files:
 - VCLibs_Redist_Packages 2013 and 2015-2019
 - VP9 Video Extensions microsoft.com/store/productId/9N4D0MSMP0PT
 - Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
-- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
+- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG (for manual installation, removed from the script)
 - AV1 Video Extension microsoft.com/store/apps/9MVZQVXJBQ9V
 - MPEG-2 Video Extension microsoft.com/store/apps/9N95Q1ZZPMH4
-- Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG
+- Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG (for manual installation, removed from the script)
 
 4) Run script step3_x64.ps1 (or step3_x86.ps1 if you using x86) as Administrator (or run commands in powershell.exe line by line). 2020/06/01 - added version x86 (x32), not tested...
 
-5) Check that all 6 functions are installed using OOAPB.exe ( oo-software.com/en/ooappbuster )
+5) Check that all 4 functions are installed using OOAPB.exe ( oo-software.com/en/ooappbuster )
 
 6) Start brouser and check that VP9 works - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
 
-7) After install Webp Image Extensions I have problem with pic-preview videos on youtube (Firefox). If you have same problem, uninstall this extension via OOAPB.exe (run as Administrator, flag Webp -> Remove -> Current User)
+7) After install Webp Image Extensions I have problem with pic-preview videos on youtube (in Firefox). If you have same problem, uninstall this extension via OOAPB.exe (run as Administrator, flag Webp -> Remove -> Current User). Now this removed from script, HEIF Image Extensions also removed (requires paid HEVC).
 
 8) If you have any other problems during VP9 installation, goto point 1 again or try using older versions of files, install only this: 
 
@@ -52,19 +52,19 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 - VCLibs_Redist_Packages 2013 and 2015-2019
 - VP9 Video Extensions microsoft.com/store/productId/9N4D0MSMP0PT
 - Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
-- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
+- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG (для установки вручную, убрано из скрипта)
 - AV1 Video Extension microsoft.com/store/apps/9MVZQVXJBQ9V
 - MPEG-2 Video Extension microsoft.com/store/apps/9N95Q1ZZPMH4
-- Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG
+- Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG (для установки вручную, убрано из скрипта)
 
 4) Запустите скрипт step3_x64.ps1 (или step3_x86.ps1 если вы используете x86) от Администратора (либо запускайте в powershell.exe команды построчно). 2020/06/01 - добавил версию x86 (x32), не тестировал...
 
-5) Проверьте что все 6 функции установлены с помощью OOAPB.exe ( oo-software.com/en/ooappbuster )
+5) Проверьте что все 4 функции установлены с помощью OOAPB.exe ( oo-software.com/en/ooappbuster )
 
 6) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
 
-7) После установки Webp Image Extensions у меня возникла проблема с предварительным просмотром видео (картинками) на YouTube (Firefox). Если у вас такая же проблема, удалите это расширение через OOAPB.exe (запустите от имени администратора, отметьте Webp -> Remove -> Current User)
+7) После установки Webp Image Extensions у меня возникла проблема с предварительным просмотром видео (картинками) на YouTube (в Firefox). Если у вас такая же проблема, удалите это расширение через OOAPB.exe (запустите от имени администратора, отметьте Webp -> Remove -> Current User). Сейчас это убрано из скрипта, также убран HEIF Image Extensions, т.к. он требует платный HEVC.
 
 8) Если у вас появились другие проблемы при установке VP9, снова начните с пункта 1 или попробуйте использовать старые версии файлов, устанавливая только их: 
 
