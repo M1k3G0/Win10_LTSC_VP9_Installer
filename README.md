@@ -17,7 +17,7 @@ List of files:
 - MPEG-2 Video Extension microsoft.com/store/apps/9N95Q1ZZPMH4
 - Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG
 - HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG (for manual installation, removed from the script)
-- Raw Image Extension microsoft.com/store/apps/9NCTDW2W1BH8 (for manual installation, removed from the script)
+- Raw Image Extension microsoft.com/store/apps/9NCTDW2W1BH8 (for manual installation)
 
 4) Run script step3_x64.ps1 (or step3_x86.ps1 if you using x86) as Administrator (or run commands in powershell.exe line by line). 2020/06/01 - added version x86 (x32), not tested...
 
@@ -28,11 +28,11 @@ We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%
 
 7) After install Webp Image Extensions I have problem with pic-preview videos on youtube (in Firefox). If you have same problem, uninstall this extension via OOAPB.exe (run as Administrator, flag Webp -> Remove -> Current User). Also removed HEIF Image Extensions (requires paid HEVC). 
 
-8) If you have any other problems during VP9 installation, goto point 1 again or try using older versions of files, install only this: 
+8) If you have any other problems during VP9 installation, goto point 1 again or try using older versions of files:
 
-x64: Microsoft.VCLibs.140.00_14.0.27323.0_x86, Microsoft.VCLibs.140.00_14.0.27323.0_x64, Microsoft.HEIFImageExtension_1.0.20982.0_x64, Microsoft.VP9VideoExtensions_1.0.21371.0_x64 
-
-or x86 (x32): Microsoft.VCLibs.140.00_14.0.27323.0_x86, Microsoft.HEIFImageExtension_1.0.20982.0_x86, Microsoft.VP9VideoExtensions_1.0.21371.0_x86 
+step3_x64_old.ps1 - ver 2019/10
+step3_x64.ps1 - ver 2020/07
+step3_x64_new.ps1 - ver 2020/11
 
 9) Say thanks, PayPal: mirageat@gmail.com
 
@@ -57,7 +57,7 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 - MPEG-2 Video Extension microsoft.com/store/apps/9N95Q1ZZPMH4
 - Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG
 - HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG (для установки вручную, убрано из скрипта)
-- Raw Image Extension microsoft.com/store/apps/9NCTDW2W1BH8 (для установки вручную, убрано из скрипта)
+- Raw Image Extension microsoft.com/store/apps/9NCTDW2W1BH8 (для установки вручную)
 
 4) Запустите скрипт step3_x64.ps1 (или step3_x86.ps1 если вы используете x86) от Администратора (либо запускайте в powershell.exe команды построчно). 2020/06/01 - добавил версию x86 (x32), не тестировал...
 
@@ -68,10 +68,10 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 7) После установки Webp Image Extensions у меня возникла проблема с предварительным просмотром видео (картинками) на YouTube (в Firefox). Если у вас такая же проблема, удалите это расширение через OOAPB.exe (запустите от имени администратора, отметьте Webp -> Remove -> Current User). Также убран HEIF Image Extensions, т.к. он требует платный HEVC.
 
-8) Если у вас появились другие проблемы при установке VP9, снова начните с пункта 1 или попробуйте использовать старые версии файлов, устанавливая только их: 
+8) Если у вас появились другие проблемы при установке VP9, снова начните с пункта 1 или попробуйте использовать старые версии файлов: 
 
-x64: Microsoft.VCLibs.140.00_14.0.27323.0_x86, Microsoft.VCLibs.140.00_14.0.27323.0_x64, Microsoft.HEIFImageExtension_1.0.20982.0_x64, Microsoft.VP9VideoExtensions_1.0.21371.0_x64 
-
-или x86 (x32): Microsoft.VCLibs.140.00_14.0.27323.0_x86, Microsoft.HEIFImageExtension_1.0.20982.0_x86, Microsoft.VP9VideoExtensions_1.0.21371.0_x86 
+step3_x64_old.ps1 - версия 10/2019
+step3_x64.ps1 - версия 07/2020
+step3_x64_new.ps1 - версия 11/2020
 
 9) Выразите благодарность, PayPal: mirageat@gmail.com
