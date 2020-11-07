@@ -1,4 +1,5 @@
-﻿cd "C:\Program Files\WindowsApps\"
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+cd "C:\Program Files\WindowsApps\"
 Add-AppxPackage .\Microsoft.VCLibs.120.00_12.0.21005.1_x86__8wekyb3d8bbwe.appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.VCLibs.120.00_12.0.21005.1_x86__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 Add-AppxPackage .\Microsoft.VCLibs.120.00_12.0.21005.1_x64__8wekyb3d8bbwe.appx
