@@ -26,8 +26,10 @@ Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebMediaExtens
 Add-AppxPackage .\Microsoft.WebpImageExtension_1.0.32731.0_x64__8wekyb3d8bbwe.appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebpImageExtension_1.0.32731.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 
+#lock access:
+
 #cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /remove[:g] %Username%
 cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /remove[:g] %Username%
 
-#cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:RX
-cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:RX
+#cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:"(OI)(CI)RX"
+cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:"(OI)(CI)RX"
