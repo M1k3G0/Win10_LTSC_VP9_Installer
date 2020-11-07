@@ -1,6 +1,8 @@
+#folder's owner is admin
 #cmd /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps\" /A
 cmd /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps" /A
 
+#full access for current user (temporary):
 # cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:F
 cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:F
 
