@@ -9,3 +9,6 @@ Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebMediaExtens
 
 #cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /remove[:g] %Username%
 cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /remove[:g] %Username%
+
+#cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:RX
+cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:RX
