@@ -1,3 +1,4 @@
+# delete all old Apps
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 
 cd "C:\Program Files\WindowsApps\"
