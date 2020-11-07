@@ -1,10 +1,10 @@
 #folder's owner is admin
-#cmd /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps\" /A
-cmd /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps" /A
+C:\Windows\System32\cmd.exe /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps" /A
+# C:\Windows\System32\cmd.exe /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps\" /A
 
 #full access for current user (temporary):
-# cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:F
-cmd /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:F
+C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:F
+# C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:F
 
 # add option to install
 cmd /c C:\Windows\System32\reg.exe add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /v "AllowAllTrustedApps" /t REG_DWORD /d 1 /f
