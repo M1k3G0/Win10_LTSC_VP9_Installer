@@ -7,7 +7,7 @@ Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
 2) Stop all brousers and run script step1.ps1 as Administrator (or run commands in powershell.exe line by line).
 
-3) Copy the attached files (21 pieces) to the directory "C:\Program Files\WindowsApps\"
+3) Copy the attached files *.Appx and *.AppxBundle to the directory "C:\Program Files\WindowsApps\"
 
 List of files:
 - VCLibs_Redist_Packages 2013 and 2015-2019 & UWPDesktop_Packages 2015-2019
@@ -47,7 +47,7 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 2) Выключите все браузеры и запустите скрипт step1.ps1 от Администратора (либо запускайте в powershell.exe команды построчно).
 
-3) Скопируйте приложенные файлы (21 штука) в директорию "C:\Program Files\WindowsApps\"
+3) Скопируйте приложенные файлы *.Appx и *.AppxBundle в директорию "C:\Program Files\WindowsApps\"
 
 Список файлов: 
 - VCLibs_Redist_Packages 2013 and 2015-2019 & UWPDesktop_Packages 2015-2019
