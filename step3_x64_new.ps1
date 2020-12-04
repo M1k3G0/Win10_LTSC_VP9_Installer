@@ -21,8 +21,10 @@ Add-AppxPackage .\Microsoft.AV1VideoExtension_1.1.32442.0_x64__8wekyb3d8bbwe.App
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.AV1VideoExtension_1.1.32442.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 Add-AppxPackage .\Microsoft.VP9VideoExtensions_1.0.32521.0_x64__8wekyb3d8bbwe.Appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.VP9VideoExtensions_1.0.32521.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
-Add-AppxPackage .\Microsoft.WebMediaExtensions_1.0.13321.0_neutral__8wekyb3d8bbwe.AppxBundle
-Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebMediaExtensions_1.0.13321.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
+# Add-AppxPackage .\Microsoft.WebMediaExtensions_1.0.13321.0_neutral__8wekyb3d8bbwe.AppxBundle
+# Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebMediaExtensions_1.0.13321.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
+Add-AppxPackage .\Microsoft.WebMediaExtensions_1.0.33271.0_neutral__8wekyb3d8bbwe.appxbundle
+Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebMediaExtensions_1.0.33271.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 Add-AppxPackage .\Microsoft.WebpImageExtension_1.0.32731.0_x64__8wekyb3d8bbwe.appx
 Add-AppxPackage -register "C:\Program Files\WindowsApps\Microsoft.WebpImageExtension_1.0.32731.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -DisableDevelopmentMode
 
