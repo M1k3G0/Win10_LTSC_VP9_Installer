@@ -1,5 +1,5 @@
 # folder's owner is admins group
-C:\Windows\System32\cmd.exe /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps" /A /R
+C:\Windows\System32\cmd.exe /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps" /A
 # C:\Windows\System32\cmd.exe /c C:\Windows\System32\takeown.exe /F "C:\Program Files\WindowsApps\" /A
 
 
