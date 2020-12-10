@@ -26,6 +26,8 @@ List of files:
 6) Start brouser and check that VP9 works - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
 
+Install browser extension 'enhanced_h264ify' to check all codecs ON in browser. Remove blocking. After check the extension can be disabled. Also extension block codecs if you want...
+
 7) After install Webp Image Extensions I have problem with pic-preview videos on youtube (in Firefox). If you have same problem, uninstall this extension via OOAPB.exe (run as Administrator, flag Webp -> Remove -> Current User). Also removed HEIF Image Extensions (requires paid HEVC). 
 
 8) If you have any other problems during VP9 installation, goto point 1 again or try using older versions of files:
@@ -65,6 +67,8 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 6) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
+
+Установите расширение для браузера 'enhanced_h264ify', чтобы проверить включены ли кодеки в браузере. Снимите все галки. После проверки расширение можно отлючить. Также это блокирует кодеки, если хотите...
 
 7) После установки Webp Image Extensions у меня возникла проблема с предварительным просмотром видео (картинками) на YouTube (в Firefox). Если у вас такая же проблема, удалите это расширение через OOAPB.exe (запустите от имени администратора, отметьте Webp -> Remove -> Current User). Также убран HEIF Image Extensions, т.к. он требует платный HEVC.
 
