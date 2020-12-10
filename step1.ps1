@@ -5,11 +5,11 @@ C:\Windows\System32\cmd.exe /c C:\Windows\System32\takeown.exe /F "C:\Program Fi
 
 
 # remove old access for current user (if exists)
-C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /remove[:g] %USERDOMAIN%\%Username%
+C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /remove[:g] %Username%
 # C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /remove[:g] %Username%
 
 # full access for current user (temporary)
-C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %USERDOMAIN%\%Username%:F
+C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:F
 # C:\Windows\System32\cmd.exe /c C:\Windows\System32\icacls.exe "C:\Program Files\WindowsApps\" /grant[:r] %Username%:F
 
 
