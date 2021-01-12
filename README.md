@@ -1,4 +1,4 @@
-=======> Windows 10 LTSC 1809+ VP9 Installer FAQ (ENG):
+=======> Windows 10 LTSC VP9 and AV1 installer (ENG FAQ):
 
 0) Сheck that VP9 does not work in the browser, example - youtu.be/N1-Jmq7BLFE
 Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
@@ -33,7 +33,7 @@ reinstall_x86.bat - full reinstallation for x32
 
 
 
-=======> Windows 10 LTSC 1809+ VP9 Installer FAQ (RUS):
+=======> Windows 10 LTSC VP9 и AV1 установщик (RU FAQ):
 
 0) Проверяем что VP9 в браузере не работает, пример - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет <10%.
