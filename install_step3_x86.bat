@@ -14,6 +14,10 @@
 %windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage -register 'C:\Program Files\WindowsApps\Microsoft.WebMediaExtensions_1.0.33271.0_x86__8wekyb3d8bbwe\AppxManifest.xml' -DisableDevelopmentMode"
 %windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage 'C:\Program Files\WindowsApps\Microsoft.WebpImageExtension_1.0.32731.0_x86__8wekyb3d8bbwe.appx'"
 %windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage -register 'C:\Program Files\WindowsApps\Microsoft.WebpImageExtension_1.0.32731.0_x86__8wekyb3d8bbwe\AppxManifest.xml' -DisableDevelopmentMode"
+%windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage 'C:\Program Files\WindowsApps\Microsoft.HEVCVideoExtension_1.0.33242.0_x86__8wekyb3d8bbwe.appx'"
+%windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage -register 'C:\Program Files\WindowsApps\Microsoft.HEVCVideoExtension_1.0.33242.0_x86__8wekyb3d8bbwe\AppxManifest.xml' -DisableDevelopmentMode"
+%windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage 'C:\Program Files\WindowsApps\Microsoft.HEIFImageExtension_1.0.32532.0_x86__8wekyb3d8bbwe.appx'"
+%windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage -register 'C:\Program Files\WindowsApps\Microsoft.HEIFImageExtension_1.0.32532.0_x86__8wekyb3d8bbwe\AppxManifest.xml' -DisableDevelopmentMode"
 %windir%\System32\icacls.exe "C:\Program Files\WindowsApps" /remove[:g] %Username%
 %windir%\System32\icacls.exe "C:\Program Files\WindowsApps" /grant[:r] %Username%:"(OI)(CI)RX"
 pause
