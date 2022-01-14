@@ -5,11 +5,13 @@ Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
 1) Update GPU driver, Install or upgrade all (x86 and x64) MS VC++ redistributable packages up to latest version and reboot PC: support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 
+or added here - VC_redist.x86_2015-2022.exe & VC_redist.x64_2015-2022.exe
+
 2) Stop all browsers and run script 'install_step1.bat' - rigth click as Administrator (or run commands *.ps1 line by line).
 
 3) Copy all attached files *.Appx and *.AppxBundle to the directory "C:\Program Files\WindowsApps\"
 
-4) Run script 'install_step3.bat' for x64 (or 'install_step3_x86.bat' for x32) - rigth click as Administrator (or run commands *.ps1 line by line).
+4) Run script 'install_2022_step3.bat' for x64 (or 'install_2022_step3_x86.bat' for x32) - rigth click as Administrator (or run commands *.ps1 line by line).
 
 5) Check that all 5 functions are installed using OOAPB.exe ( oo-software.com/en/ooappbuster )
 
@@ -25,9 +27,7 @@ Install browser extension 'enhanced_h264ify' to check all codecs is ON in browse
 step3_x64_old.ps1 - ver. 2019/10
 step3_x64.ps1 - ver. 2020/07
 step3_x64_new.ps1 - ver. 2020/11
-reinstall.bat - full reinstallation for x64
-reinstall_x86.bat - full reinstallation for x32
-
+install_step3.bat / install_step3_x86.bat - ver. 2021/01
 
 9) Say thanks, PayPal: mirageat@gmail.com
 
@@ -40,11 +40,13 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 1) Обновите видео-драйвер, Установите или обновите все (x86 и x64) MS VC++ библиотеки до последней версии и перезагрузите ПК: support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads
 
+или добавленные сюда - VC_redist.x86_2015-2022.exe и VC_redist.x64_2015-2022.exe
+
 2) Выключите все браузеры и запустите скрипт 'install_step1.bat' - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
 
 3) Скопируйте все приложенные файлы *.Appx и *.AppxBundle в директорию "C:\Program Files\WindowsApps\"
 
-4) Запустите скрипт 'install_step3.bat' для x64 (или 'install_step3_x86.bat' для x32) - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
+4) Запустите скрипт 'install_2022_step3.bat' для x64 (или 'install_2022_step3_x86.bat' для x32) - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
 
 5) Проверьте что все 5 функции установлены с помощью OOAPB.exe ( oo-software.com/en/ooappbuster )
 
@@ -57,23 +59,23 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 8) Если у вас появились другие проблемы при установке VP9, снова начните с пункта 1 или попробуйте использовать старые версии файлов: 
 
-step3_x64_old.ps1 - версия 10/2019
-step3_x64.ps1 - версия 07/2020
-step3_x64_new.ps1 - версия 11/2020
-reinstall.bat - полная переустановка для x64
-reinstall_x86.bat - полная переустановка для x32
+step3_x64_old.ps1 - версия от 2019/10
+step3_x64.ps1 - версия от 2020/07
+step3_x64_new.ps1 - версия от 2020/11
+install_step3.bat / install_step3_x86.bat - версия от 2021/01
 
 9) Выразите благодарность, PayPal: mirageat@gmail.com
 
 
 
-=======> List of files / Список файлов:
+=======> List of files (Список файлов):
 
-- VCLibs_Redist_Packages 2013 and 2015-2019 & UWPDesktop_Packages 2015-2019
+- VCLibs_Redist_Packages 2015-2022 & UWPDesktop_Packages 2015-2022
 - VP9 Video Extensions microsoft.com/store/productId/9N4D0MSMP0PT
 - Web Media Extensions microsoft.com/store/productId/9N5TDP8VCMHS
 - AV1 Video Extension microsoft.com/store/apps/9MVZQVXJBQ9V
 - MPEG-2 Video Extension microsoft.com/store/apps/9N95Q1ZZPMH4
 - Webp Image Extensions microsoft.com/store/apps/9PG2DK419DRG
-- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG (for manual installation, removed from the script / для установки вручную, убрано из скрипта)
+- HEVC Video Extensions fDM microsoft.com/store/apps/9N4WGH0Z6VHQ
+- HEIF Image Extensions microsoft.com/store/apps/9PMMSR1CGPWG
 - Raw Image Extension microsoft.com/store/apps/9NCTDW2W1BH8 (for manual installation / для установки вручную)
