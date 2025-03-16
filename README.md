@@ -9,18 +9,16 @@ Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
 3) Copy all attached files *.Appx and *.AppxBundle to the directory "C:\Program Files\WindowsApps\"
 
-4) Run script 'install_2025_step3.bat' for x64 (or 'install_2022_step3_x86.bat' for x32) - rigth click as Administrator (or run commands *.ps1 line by line).
+4) Run script 'install_2025_step3.bat' for x64 (or 'install_2022_step3_x86.bat' for x32) - rigth click as Administrator (or run commands *.ps1 line by line). Fix and run nvidia_fix.bat
 
-5) Check that all 5 functions are installed using OOAPB.exe ( oo-software.com/en/ooappbuster )
+5) Check that all 7 functions are installed using OOAPB.exe
 
 6) Start browser and check that VP9 works - youtu.be/N1-Jmq7BLFE
 We look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be >30%.
 
 Install browser extension 'enhanced_h264ify' to check all codecs is ON in browser. Remove all blocking. After check the extension can be disabled. Also the extension block any codecs if you want...
 
-7) After install Webp Image Extensions I have problem with pic-preview videos on youtube (in Firefox). If you have same problem, uninstall this extension via OOAPB.exe (run as Administrator, flag Webp -> Remove -> Current User). Also removed HEIF Image Extensions (requires paid HEVC).
-
-8) If you have any other problems during installation, goto point 1 again or try using older versions of files:
+7) If you have any problems during installation, goto point 1 again or try using older versions of files:
 
 step3_x64_old.ps1 - ver. 2019/10
 step3_x64.ps1 - ver. 2020/07
@@ -42,18 +40,16 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 3) Скопируйте все приложенные файлы *.Appx и *.AppxBundle в директорию "C:\Program Files\WindowsApps\"
 
-4) Запустите скрипт 'install_2025_step3.bat' для x64 (или 'install_2022_step3_x86.bat' для x32) - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
+4) Запустите скрипт 'install_2025_step3.bat' для x64 (или 'install_2022_step3_x86.bat' для x32) - правый клик от Администратора (либо запускайте команды *.ps1 построчно). Исправте и запустите nvidia_fix.bat
 
-5) Проверьте что все 5 функции установлены с помощью OOAPB.exe ( oo-software.com/en/ooappbuster )
+5) Проверьте что все 7 функции установлены с помощью OOAPB.exe
 
 6) Запустите браузер и убедитесь, что VP9 работает - youtu.be/N1-Jmq7BLFE
 Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') нагрузка будет >30%.
 
 Установите расширение для браузера 'enhanced_h264ify', чтобы проверить включены ли кодеки в браузере. Снимите все блокировки. После проверки расширение можно отлючить. Также оно блокирует любые кодеки, если хотите...
 
-7) После установки Webp Image Extensions у меня возникла проблема с предварительным просмотром видео (картинками) на YouTube (в Firefox). Если у вас такая же проблема, удалите это расширение через OOAPB.exe (запустите от имени администратора, отметьте Webp -> Remove -> Current User). Также убран HEIF Image Extensions, т.к. он требует платный HEVC.
-
-8) Если у вас появились другие проблемы при установке VP9, снова начните с пункта 1 или попробуйте использовать старые версии файлов: 
+7) Если у вас появились проблемы при установке VP9, снова начните с пункта 1 или попробуйте использовать старые версии файлов: 
 
 step3_x64_old.ps1 - версия от 2019/10
 step3_x64.ps1 - версия от 2020/07
