@@ -5,13 +5,11 @@ Look at the 'GPU' in the Task Manager, in 4k ('2160p60fps') load will be <10%.
 
 1) Update GPU driver, Install or upgrade all (x86 and x64) MS VC++ redistributable packages up to latest version and reboot PC: support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 
-or added here - VC_redist.x86_2015-2022.exe & VC_redist.x64_2015-2022.exe
-
 2) Stop all browsers and run script 'install_step1.bat' - rigth click as Administrator (or run commands *.ps1 line by line).
 
 3) Copy all attached files *.Appx and *.AppxBundle to the directory "C:\Program Files\WindowsApps\"
 
-4) Run script 'install_2022_step3.bat' for x64 (or 'install_2022_step3_x86.bat' for x32) - rigth click as Administrator (or run commands *.ps1 line by line).
+4) Run script 'install_2025_step3.bat' for x64 (or 'install_2022_step3_x86.bat' for x32) - rigth click as Administrator (or run commands *.ps1 line by line).
 
 5) Check that all 5 functions are installed using OOAPB.exe ( oo-software.com/en/ooappbuster )
 
@@ -29,7 +27,7 @@ step3_x64.ps1 - ver. 2020/07
 step3_x64_new.ps1 - ver. 2020/11
 install_step3.bat / install_step3_x86.bat - ver. 2021/01
 
-9) Say thanks, PayPal: mirageat@gmail.com
+
 
 
 
@@ -40,13 +38,11 @@ Cмотрим 'GPU' в Диспетчере задач, в 4k ('2160p60fps') н�
 
 1) Обновите видео-драйвер, Установите или обновите все (x86 и x64) MS VC++ библиотеки до последней версии и перезагрузите ПК: support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads
 
-или добавленные сюда - VC_redist.x86_2015-2022.exe и VC_redist.x64_2015-2022.exe
-
 2) Выключите все браузеры и запустите скрипт 'install_step1.bat' - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
 
 3) Скопируйте все приложенные файлы *.Appx и *.AppxBundle в директорию "C:\Program Files\WindowsApps\"
 
-4) Запустите скрипт 'install_2022_step3.bat' для x64 (или 'install_2022_step3_x86.bat' для x32) - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
+4) Запустите скрипт 'install_2025_step3.bat' для x64 (или 'install_2022_step3_x86.bat' для x32) - правый клик от Администратора (либо запускайте команды *.ps1 построчно).
 
 5) Проверьте что все 5 функции установлены с помощью OOAPB.exe ( oo-software.com/en/ooappbuster )
 
@@ -64,7 +60,7 @@ step3_x64.ps1 - версия от 2020/07
 step3_x64_new.ps1 - версия от 2020/11
 install_step3.bat / install_step3_x86.bat - версия от 2021/01
 
-9) Выразите благодарность, PayPal: mirageat@gmail.com
+
 
 
 
