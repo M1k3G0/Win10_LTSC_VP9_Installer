@@ -1,0 +1,1 @@
+%windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -NoProfile -command "Add-AppxPackage -register 'C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.967.0_x64__56jybvy8sckqj\AppxManifest.xml' -DisableDevelopmentMode"
